@@ -1,0 +1,16 @@
+Domain Model of the User Terminal Service:
+1. Account
+	a) account number
+	b) password
+2. Authenticator
+3. Account Handler (Transaction Service + Query Service?)
+
+Przeznaczenie serwisów:
+2. Authenticator
+	a) porownuje dane z Account z tymi w Data Authentication Storage (Banking Service)
+3. Account Handler
+	a) sprawdza stan konta
+	b) przeprowadza transakcje miedzy kontami uzytkownikow	
+
+Data Flow (przepływ danych) of the User Terminal Service:
+...TBA

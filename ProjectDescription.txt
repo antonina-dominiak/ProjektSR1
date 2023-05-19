@@ -1,0 +1,27 @@
+trzy serwisy:
+
+Banking Service (System Bankowy:)
+przechowuje dane klientów (imię, nazwisko, PESEL, nr konta, saldo)
+-User stories - Jako użytkownik chcę:
+żeby przechowywane dane były poprawne 
+
+User Terminal Service (Terminale Klientów:)
+weryfikacja konta (może być uproszczona, bez haszowania czy szyfrowania haseł).
+przelać pieniądze na inne konto (jeśli ma środki i nr konta docelowego istnieje) 
+sprawdzić stan konta
+wypłacić środki (jeśli są dostępne)
+dokonać wpłaty (po prostu zwiększa saldo)
+-User stories - Jako użytkownik chcę:
+móc się logować na konto
+móc przelać pieniądze
+móc sprawdzić stan mojego konta
+móc wpłacać środki 
+móc wypłacać środki
+
+Banker Terminal Service (Terminale Bankierów:)
+CRUD klientow
+-User stories - Jako użytkownik chcę móc:
+poprosić o założenie konta
+poprosić o edycję danych podstawowych (imię, nazwisko, PESEL)
+
+

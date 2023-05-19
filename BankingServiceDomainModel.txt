@@ -1,0 +1,29 @@
+Domain Model of the Banking Service:
+1. User
+	a) Name (właściwości Usera)
+	b) Surname
+	c) PESEL
+	d) account number
+	e) account balance
+2. Storage (typ nie service, tylko repository?) 
+	(bez właściwości, sama logika)
+3. Data Authentication Storage
+4. Account
+	a) account number
+	b) password
+5. Validator
+	(bez właściwości, sama logika)
+
+Przeznaczenie serwisów Banking Service:
+2. Storage
+	a) C - Create
+	b) R - Read
+	c) U - Update
+	d) D - Delete
+3. Data Authentication Storage
+	a) CRUD
+5. Validator
+	a) czy wprowadzane dane pasują spełniają wymagania
+
+Data Flow (przepływ danych) of the Banking Service:
+...TBA

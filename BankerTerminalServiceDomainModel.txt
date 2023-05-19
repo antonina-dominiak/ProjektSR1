@@ -1,0 +1,9 @@
+Domain Model of the Banker Terminal Service:
+1. Banking Admin Service
+
+Przeznaczenie serwisów:
+1. Banking Admin Service
+	a)  komunikuje się z Banking Service
+
+Data Flow (przepływ danych) of the Banker Terminal Service:
+...TBA
